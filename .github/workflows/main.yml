@@ -35,12 +35,11 @@ jobs:
 
       - name: Test
         run: yarn test
-      
-      - uses: peaceiris/actions-gh-pages@v3
-        with:
-          publish_dir: ./docs
-
       - name: Semantic Release
-        with:
-          GITHUB_TOKEN: ${{ secrets.GHP_TOKEN }}
+        uses: peaceiris/actions-gh-pages@v3
         run: npx semantic-release
+      - name: Deploy to github.io
+        env:
+          GITHUB_TOKEN: ${{ secrets.GHP_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./docs
