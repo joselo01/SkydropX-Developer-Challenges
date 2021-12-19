@@ -41,6 +41,6 @@ jobs:
           publish_dir: ./docs
 
       - name: Semantic Release
-        env:
+        with:
           GITHUB_TOKEN: ${{ secrets.GHP_TOKEN }}
         run: npx semantic-release
