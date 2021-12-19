@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/joselo01/SkydropX-Developer-Challenges/compare/v1.6.0...v1.7.0) (2021-12-19)
+
+
+### Features
+
+* reconstruyendo folder docs ([afc5bd2](https://github.com/joselo01/SkydropX-Developer-Challenges/commit/afc5bd2d32e0e72ad57a9febc7241adb68ca8009))
+
 # [1.6.0](https://github.com/joselo01/SkydropX-Developer-Challenges/compare/v1.5.0...v1.6.0) (2021-12-19)
 
 
