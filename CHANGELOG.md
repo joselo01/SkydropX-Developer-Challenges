@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/joselo01/SkydropX-Developer-Challenges/compare/v1.3.0...v1.4.0) (2021-12-19)
+
+
+### Features
+
+* corrigiendo base url ([e337b4e](https://github.com/joselo01/SkydropX-Developer-Challenges/commit/e337b4e96c21c9a7ff2276ce2d559585f82b09cf))
+
 # [1.3.0](https://github.com/joselo01/SkydropX-Developer-Challenges/compare/v1.2.0...v1.3.0) (2021-12-19)
 
 
