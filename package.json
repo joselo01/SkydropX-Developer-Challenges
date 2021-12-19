@@ -2,6 +2,7 @@
   "name": "sm-skydropx-app",
   "version": "1.8.0",
   "private": true,
+  "homepage": "./",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
@@ -13,11 +14,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && yarn copy-files",
+    "build": "react-scripts build && mv build docs",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "semantic-release": "semantic-release",
-    "copy-files": "copyfiles -u 1 build/**/* docs/"
+    "semantic-release": "semantic-release"
   },
   "eslintConfig": {
     "extends": [
