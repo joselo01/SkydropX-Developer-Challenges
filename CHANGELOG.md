@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/joselo01/SkydropX-Developer-Challenges/compare/v1.10.0...v1.11.0) (2021-12-19)
+
+
+### Features
+
+* update docs ([90de872](https://github.com/joselo01/SkydropX-Developer-Challenges/commit/90de87281aa602c8936efd8caeb0a9d74c192b10))
+
 # [1.10.0](https://github.com/joselo01/SkydropX-Developer-Challenges/compare/v1.9.0...v1.10.0) (2021-12-19)
 
 
