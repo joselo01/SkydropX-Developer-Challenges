@@ -17,7 +17,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "semantic-release": "semantic-release",
-    "copy-files": "copyfiles -u 1 build/**/* docs/"
+    "copy-files": "copyfiles -u 1 /**/* docs/"
   },
   "eslintConfig": {
     "extends": [
