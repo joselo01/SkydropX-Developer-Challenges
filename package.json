@@ -13,10 +13,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && yarn copy-files",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "copy-files": "copyfiles -u 1 build/**/* docs/"
   },
   "eslintConfig": {
     "extends": [
@@ -41,6 +42,7 @@
     "@commitlint/config-conventional": "^15.0.0",
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/git": "^10.0.1",
+    "copyfiles": "^2.4.1",
     "husky": "^7.0.4",
     "semantic-release": "^18.0.1"
   },
