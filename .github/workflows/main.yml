@@ -35,6 +35,12 @@ jobs:
 
       - name: Test
         run: yarn test
+      
+      - name: Deploy to github.io
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          publish_branch: gh-pages
+          publish_dir: ./docs
 
       - name: Semantic Release
         env:
