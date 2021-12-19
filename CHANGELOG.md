@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/joselo01/SkydropX-Developer-Challenges/compare/v1.2.0...v1.3.0) (2021-12-19)
+
+
+### Features
+
+* configurando folder docs ([bdbb691](https://github.com/joselo01/SkydropX-Developer-Challenges/commit/bdbb69173e40a2a285402b365ea1ae5712e6bda7))
+
 # [1.2.0](https://github.com/joselo01/SkydropX-Developer-Challenges/compare/v1.1.0...v1.2.0) (2021-12-19)
 
 
