@@ -41,7 +41,7 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GHP_TOKEN }}
           publish_branch: gh-pages
-          publish_dir: ./docs
+          publish_dir: ./build
 
       - name: Semantic Release
         env:
