@@ -22,7 +22,7 @@ jobs:
     - name: Deploy to gh-pages
       uses: peaceiris/actions-gh-pages@v3
     - name: Semantic Release
-      env:
+      with:
         GHP_TOKEN: ${{ secrets.GHP_TOKEN }}
         publish_dir: ./build
       run: npx semantic-release
